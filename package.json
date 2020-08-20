@@ -1,7 +1,6 @@
 {
   "name": "cent-comp",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1a",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -30,5 +29,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pordee/cent-comp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pordee/cent-comp/issues"
+  },
+  "homepage": "https://github.com/pordee/cent-comp#readme"
 }
