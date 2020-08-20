@@ -1,6 +1,6 @@
 {
-  "name": "cent-comp",
-  "version": "0.1.1a",
+  "name": "@sertiscorp/cent-comp",
+  "version": "0.1.1b",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -13,7 +13,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,7 +34,17 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@storybook/addon-actions": "^6.0.14",
+    "@storybook/addon-essentials": "^6.0.14",
+    "@storybook/addon-links": "^6.0.14",
+    "@storybook/node-logger": "^6.0.14",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^6.0.14",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pordee/cent-comp.git"
